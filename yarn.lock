@@ -6972,11 +6972,6 @@
   "resolved" "https://registry.npmjs.org/kleur/-/kleur-3.0.3.tgz"
   "version" "3.0.3"
 
-"klona@^2.0.4":
-  "integrity" "sha512-pJiBpiXMbt7dkzXe8Ghj/u4FfXOOa98fPW+bihOJ4SjnoijweJrNThJfd3ifXpXhREjpoF2mZVH1GfS9LV3kHQ=="
-  "resolved" "https://registry.npmjs.org/klona/-/klona-2.0.5.tgz"
-  "version" "2.0.5"
-
 "latest-version@^5.1.0":
   "integrity" "sha512-weT+r0kTkRQdCdYCNtkMwWXQTMEswKrFBkm4ckQOMVhhqhIMI1UT2hMj+1iigIhgSZm5gTmrRXBNoGUgaTY1xA=="
   "resolved" "https://registry.npmjs.org/latest-version/-/latest-version-5.1.0.tgz"
@@ -9178,14 +9173,6 @@
   "version" "1.6.3"
   dependencies:
     "truncate-utf8-bytes" "^1.0.0"
-
-"sass-loader@^12.6.0":
-  "integrity" "sha512-oLTaH0YCtX4cfnJZxKSLAyglED0naiYfNG1iXfU5w1LNZ+ukoA5DtyDIN5zmKVZwYNJP4KRc5Y3hkWga+7tYfA=="
-  "resolved" "https://registry.npmjs.org/sass-loader/-/sass-loader-12.6.0.tgz"
-  "version" "12.6.0"
-  dependencies:
-    "klona" "^2.0.4"
-    "neo-async" "^2.6.2"
 
 "sax@^1.2.4":
   "integrity" "sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw=="
