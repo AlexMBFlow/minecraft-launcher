@@ -71,7 +71,7 @@
   "config": {
     "forge": {
       "packagerConfig": {
-        "name": "ElectronStarter",
+        "name": "Launcher",
         "executableName": "Launcher",
         "icon": "assets",
         "extraResource": [

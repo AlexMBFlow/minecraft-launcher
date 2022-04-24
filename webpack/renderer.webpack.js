@@ -5,8 +5,4 @@ module.exports = {
   module: {
     rules: require('./rules.webpack'),
   },
-  loader: {
-      test: /\.(css|sass)$/,
-      use: ['style-loader','css-loader']
-    }
 }
