@@ -1,6 +1,6 @@
 import React from 'react';
 // import * as style from "./styles.css";
- import "./styles.css"
+import "./styles.css";
 
 const RegistrationForm = () => {
     return (
