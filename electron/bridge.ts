@@ -9,6 +9,10 @@ export const api = {
    * The function below can accessed using `window.Main.sendMessage`
    */
 
+  openMinecraft: () => {
+    ipcRenderer.send("open-minecraft")
+  },
+
   sendMessage: (message: string) => {
     ipcRenderer.send('message', message)
   },
@@ -20,5 +24,6 @@ export const api = {
     ipcRenderer.on(channel, (_, data) => callback(data))
   }
 }
+
 
 contextBridge.exposeInMainWorld('Main', api)

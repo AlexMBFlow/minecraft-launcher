@@ -1,13 +1,18 @@
 import React from 'react';
-// import * as style from "./styles.css";
+import { Button } from "antd";
+
 import "./styles.css";
 
 const RegistrationForm = () => {
+    const clickHandle = () => {
+        window.Main.openMinecraft("CLICK")
+    }
+
     return (
         <div className={"registration-container"}>
             <div className={"registration-inner"}>
                 <input type={"text"}/>
-                asdsadasdasdasdasdasdasdsa
+                <Button onClick={clickHandle} type="primary">Кнопкич</Button>
             </div>
         </div>
     );
