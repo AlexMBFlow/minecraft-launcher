@@ -37,12 +37,13 @@ async function registerListeners(file: void) {
     /**
      * This comes from bridge integration, check bridge.ts
      */
+    // Исполняемый файл должен лежать в папке, с разницей в один уровень, относительно сборки майнкрайфта
     ipcMain.on('message', (_, message) => {
         console.log(message)
     })
+
     ipcMain.on("open-minecraft", (event, payload) => {
         const minecraftPath = path.resolve("../", "./minecraft")
-        console.log("appPath", minecraftPath)
         // const cmd = "F: && cd F:\\pet\\minecraftlauncher\\minecraft && starter.bat";
         const cmd = `F: && cd ${minecraftPath} && starter.bat`;
         console.log("Minecraft is launched!")
