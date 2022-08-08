@@ -1,4 +1,4 @@
-/* eslint-disable node/no-path-concat */
+
 import { app, BrowserWindow, ipcMain } from 'electron'
 import { exec } from "child_process";
 import * as path from "path";

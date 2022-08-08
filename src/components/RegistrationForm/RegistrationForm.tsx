@@ -1,11 +1,12 @@
+/* eslint-disable no-use-before-define */
 import React from 'react';
 import { Button } from "antd";
-
 import "./styles.css";
+
 
 const RegistrationForm = () => {
     const clickHandle = () => {
-        window.Main.openMinecraft("CLICK")
+        window.Main.openMinecraft()
     }
 
     return (

@@ -1,6 +1,12 @@
 import { contextBridge, ipcRenderer } from 'electron'
 
-export const api = {
+interface IApi {
+  openMinecraft: () => void
+  sendMessage: (message: string) => void
+  on: (channel: string, callback: Function) => void
+}
+
+export const api: IApi = {
   /**
    * Here you can expose functions to the renderer process
    * so they can interact with the main (electron) side
@@ -9,11 +15,11 @@ export const api = {
    * The function below can accessed using `window.Main.sendMessage`
    */
 
-  openMinecraft: () => {
+  openMinecraft: (): void => {
     ipcRenderer.send("open-minecraft")
   },
 
-  sendMessage: (message: string) => {
+  sendMessage: (message: string): void => {
     ipcRenderer.send('message', message)
   },
 
