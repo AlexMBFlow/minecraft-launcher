@@ -1,9 +1,7 @@
-import {makeAutoObservable} from "mobx";
+import { makeAutoObservable } from "mobx";
 
 class Store {
-    store = [{
-        name: "cookiezi"
-    }]
+    store = []
 
     constructor() {
         makeAutoObservable(this)
@@ -12,7 +10,6 @@ class Store {
     add = () => {
 
     }
-
 }
 
 export default new Store()
