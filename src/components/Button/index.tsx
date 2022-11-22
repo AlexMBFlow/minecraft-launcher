@@ -1,5 +1,5 @@
-import { ReactNode, ButtonHTMLAttributes } from 'react'
-import { Container } from './styles'
+import { ReactNode, ButtonHTMLAttributes } from 'react';
+import { Container } from './styles';
 
 
 type ButtonProps = {

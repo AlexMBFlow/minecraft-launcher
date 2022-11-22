@@ -1,0 +1,7 @@
+[2022-11-22 22:25:38] [main INFO] Using Tweaker
+[2022-11-22 22:25:38] [main INFO] Tweaker: acceptOptions
+[2022-11-22 22:25:38] [main INFO] Tweaker: injectIntoClassLoader
+[2022-11-22 22:25:38] [main INFO] Hook method dgf#render(IIF)V loaded.
+[2022-11-22 22:25:38] [main INFO] Loaded as a library.
+[2022-11-22 22:25:38] [main INFO] Tweaker: getLaunchArguments
+[2022-11-22 22:25:38] [Render thread INFO] [TLSkinCape] Method dgf.render(IIF)V successfully hooked.

@@ -43,7 +43,7 @@ async function registerListeners(file: void) {
     })
 
     ipcMain.on("open-minecraft", (event, payload) => {
-        const minecraftPath = path.resolve("../", "./minecraft")
+        const minecraftPath = path.resolve("./minecraft")
         // const cmd = "F: && cd F:\\pet\\minecraftlauncher\\minecraft && starter.bat";
         const cmd = `F: && cd ${minecraftPath} && starter.bat`;
         console.log("Minecraft is launched!")
