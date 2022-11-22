@@ -1,4 +1,4 @@
-import styled, { ThemeProvider } from 'styled-components'
+import styled from 'styled-components';
 
 export const Box = styled.div`
   color: ${props => props.theme.color};

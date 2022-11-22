@@ -1,6 +1,11 @@
 import { makeAutoObservable } from "mobx";
 
-class Store {
+interface IStore {
+    store: string[];
+    add: () => void;
+}
+
+class Store implements IStore  {
     store = []
 
     constructor() {
