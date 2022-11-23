@@ -1,7 +1,12 @@
+const path = require("path");
+
 module.exports = [
   {
     test: /\.node$/,
     use: 'node-loader',
+  },
+  {
+    exclude: path.join(__dirname, "minecraft")
   },
   {
     test: /\.(m?js|node)$/,
